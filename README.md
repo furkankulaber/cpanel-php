@@ -28,7 +28,7 @@ For example, if you would like to get list accounts of your whm server, you can 
 
 ```php
   <?php
-  $cpanel = new \Gufy\CpanelPhp\Cpanel([
+  $cpanel = new \Clemury\CpanelPhp\Cpanel([
       'host'        =>  'https://123.456.789.123:2087', // ip or domain complete with its protocol and port
       'username'    =>  'root', // username of your server, it usually root.
       'auth_type'   =>  'hash', // set 'hash' or 'password'
@@ -51,7 +51,7 @@ This is the example when you want to define your configuration while creating ne
 
 ```php
   <?php
-  $cpanel = new \Gufy\CpanelPhp\Cpanel([
+  $cpanel = new \Clemury\CpanelPhp\Cpanel([
       'host'        =>  'https://123.456.789.123:2087', // required
       'username'    =>  'root', // required
       'auth_type'   =>  'hash', // optional, default 'hash'
