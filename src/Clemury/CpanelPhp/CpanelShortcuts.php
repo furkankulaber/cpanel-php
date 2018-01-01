@@ -68,11 +68,16 @@ trait CpanelShortcuts
      * @return mixed
      * @throws \Exception
      */
-    public function addEmailAccount($username, $email, $password)
+    public function addEmailAccount($username, $email, $password,$qouta=0)
     {
         list($account, $domain) = $this->split_email($email);
 
-        return $this->emailAction('addpop', $username, $password, $domain, $account);
+        return $this->cpanel('Email', 'addpop', $username, [
+            'domain' => $domain,
+            'email' => $account,
+            'password' => $password,
+            'quota'    => $quota
+        ]);
     }
 
     /**

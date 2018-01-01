@@ -1,5 +1,5 @@
 {
-    "name": "gufy/cpanel-php",
+    "name": "furkankulaber/cpanel-php",
     "description": "Cpanel/WHM API for PHP",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Gufy\\CpanelPhp\\": "src/"
+            "Clemury\\CpanelPhp\\": "src/"
         }
     },
     "minimum-stability": "stable"
