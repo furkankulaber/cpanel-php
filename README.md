@@ -10,11 +10,11 @@
 
 To install this package, you can run this code via your terminal
 ```shell
-	composer require gufy/cpanel-whm:dev-master
+	composer require furkankulaber/cpanel-php:dev-master
 ```
 Or update your `composer.json` by adding this line
 ```json
-	"gufy/cpanel-php":"~1.0"
+	"furkankulaber/cpanel-php":"~1.0"
 ```
 
 Then, run this code
